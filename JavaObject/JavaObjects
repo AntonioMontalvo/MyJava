@@ -1,0 +1,48 @@
+* Objects in software allow us to express and model things that we have and express in real life.
+
+* All Real life objects have two characteristics:
+	- State e.g. A radio is on or off
+	- Behavior e.g. Change stations, lower volumen
+
+* A blueprint to create objects in Java is called a Class. This is the console application boiler plate.
+
+	public class Example {
+	 
+	  public static void main(String[] args) {
+	    
+	    
+	  }
+
+	}
+
+* The java.ioconsole object is to take input and write out to the screen. It is a convinence wrapper around System out and System in. System is a class.	
+
+* System.out.println("I'm creating my own Java Docs");
+With this code we are not taking any input. Just printing the string to the console. 
+	- System is a class that is automatically imported.
+	- System provides a static public field named .out
+	- .out is a print stream with methods
+	- one of this methods is .println(); 
+
+* A newly created object is an instance.
+
+* In order to communicate how you intent your object to work, you can use access level modifiers. This modifiers control access to variables, classes, methods and constructors.
+
+	- public	- protected		- no modifiers		- private
+	
+	In order to ensure that code in the same folder cannot access our field, we should mark our field as private.	
+
+	- public; Fields, methods, blocks declared inside a public class can be accssed from any class belonging to the Java universe. Because of class inheritance, its subclasses will also be classes.
+
+	- private; Using the private modifier is the main way to encapsulate and object and hide data from the outside world. All methods, variables and constructord can only be accesses within the class itself.
+
+	- protected; It gives other subclass a chance to access helper methods or variables of the protected class.
+
+	- no modifiers; if no keyword is used then by default is public.
+		Two rules for inherited methods:	
+
+		1. Methods declared public in a superclass must be public in all subclasses.
+
+		2. Methods declared protected in a superclass must ether be protected or public in subclasses.
+
+*		

@@ -1,0 +1,12 @@
+Source File Declaration Rules
+	1.	Only one public class per source file.
+
+	2.	Source file can have more than one non-public classes.
+
+	3.	Public class name should be the same as source file and apended by .java
+
+	4.	If class is defoned inside a package, then package should be the first statement in the source file.
+
+	5.	If import statements are present, they must be written between the pacjake statement and the class declaration. If there are no package statements, then the import statement should be the first line in the source.
+
+	6.	It is not possible to declare defferent import and/or package statements to diffrent classes in the source file. 

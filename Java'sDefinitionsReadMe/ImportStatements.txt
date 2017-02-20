@@ -1,0 +1,5 @@
+Is a way of giving proper location for the compiler to find that particular class.
+
+e.g 	java_installation/java/io 
+
+The line above would ask the compiler to load all the classes available in the directory.

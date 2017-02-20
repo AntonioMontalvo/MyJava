@@ -1,0 +1,1 @@
+A Package is a way of categorizing the classes and interfaces.

@@ -1,0 +1,11 @@
+There may be situations where you need to execute a block of code several number of times. Normally, statements are executes in secquence...the first statement is executed first, followed by the second, etc.
+
+With Loops we can control our execution path, hence allowing more complicate structures.
+
+A loop statement allows us to execute a statement or group of statements multiple times.
+
+Loop control statements change execution from its normal sequence. Java supports:
+	
+	1. break statements: to terminate the loop or switch statement and transfer execution to the statement following the loop or switch
+
+	2. continue statement: which causes the loop to skip the remainder of its body and immediately jump to the next iteration of the loop.
