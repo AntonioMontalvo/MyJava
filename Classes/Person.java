@@ -1,8 +1,8 @@
-/* CLASSES IN JAVA
-	A class is a blue print from which individual objects are created. A class can contain:
+ /* CLASSES IN JAVA
+	A class is a blueprint from which individual objects are created. A class can contain:
 	-Local variables: if defined inside methods, constructors or blocks. Declared and initialized  within the method. Destroyed after the method is complete.
 
-	-Instance variables: if within a class but outside a metho. Initialized when the class is instantiated. Accessible from inside any method, constructor or block of that particular class.
+	-Instance variables: if within a class but outside a method. Initialized when the class is instantiated. Accessible from inside any method, constructor or block of that particular class.
 
 	-Class variables: declared within a class outside of methods, with the static keyword. 
 */

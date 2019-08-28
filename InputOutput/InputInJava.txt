@@ -1,0 +1,3 @@
+Hello there, this text comes from the JavaInput.java fileContent variable.
+This text is pinted using the printf method available for PrintWriter.
+sdfasdf   5325423 &^*

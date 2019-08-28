@@ -18,7 +18,7 @@ public class JavaObject { // This is our console application boiler plate.
 		System.out.println("My Java grade is coming");
 		progressInJava.grade();// Call the method  to set the value of gradeNumber to 1.
 		
-		if (! progressInJava.isMaxGrade()) { // This method returns true or false after chacking if gradeNumber is equal to 10. If it is it returns true, otherwise it returns false.
+		if (! progressInJava.isMaxGrade()) { // This method returns true or false after checking if gradeNumber is equal to 10. If it is it returns true, otherwise it returns false.
 			System.out.println("We have a grade");	
 		}
 		

@@ -38,7 +38,7 @@ public class Basic2 {
 			
 			String verb = console.readLine("Enter an verb: ");
 			
-			console.printf("%s is very %s\n", name, adjective);
+			console.printf("%s is very %s\n", name, adverb);
 			console.printf("%s is very %s\n", adverb,verb);
 			
     } 

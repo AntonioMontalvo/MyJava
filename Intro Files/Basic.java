@@ -1,5 +1,5 @@
 //In Java, everything is an Object. Objects have states and behaviors. eg A dog Object has states = color, name, breed, and behaviors = barking, eating , wagging tail.
-//A Class is a template/blueprint that tdescribes state and behavior the object of its type supports.
+//A Class is a template/blueprint that describes state and behavior the object of its type supports.
 //Methods is behavior. A class can contain many methods. In the methods is where the logic is written, data is manipulated and all actions are executed.
 //Each Object has its unique set of instance variable. An object's state is created by the values assigned to these instance variable.
 
@@ -8,6 +8,13 @@
 public class Basic {
 	public static void main(String []args){
 		System.out.println("Hello World"); //prints Hello World
+		//Some variables
+		int flightNum = 379;
+		String destination = "San Juan, Puerto Rico";
+		String carrier = "American Airlines";
+		System.out.println("////////////////");
+		System.out.println("Some concatanation to start with");
+		System.out.println("Today's flight is " + carrier + " number " + flightNum + " with final destination " + destination );
 	}
 }
 
