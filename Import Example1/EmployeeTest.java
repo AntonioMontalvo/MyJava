@@ -19,7 +19,7 @@ public  class EmployeeTest {
 	}
 }
 
-//compile Employee.java and EmployeeTest.java
-// javac Employee.java 
-// javac EmployeeTest.java 
-//run java EmployeeTest
+//compile Inheritance.java and OneQuestion.java
+// javac Inheritance.java 
+// javac OneQuestion.java 
+//run java OneQuestion
