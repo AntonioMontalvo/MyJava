@@ -4,16 +4,6 @@ public class SimpleCounter
 {
 	private int counter; //this is our instance variable
 
-	public void count()//this method ads one to the counter
-	{
-		counter = counter + 1;
-	}
-
-	public int getCount()
-	{
-		return counter;
-	}
-
 	//Remember every class needs a main method.
 	public static void main(String[] args)
 	{
@@ -34,6 +24,16 @@ public class SimpleCounter
 		System.out.println(attendeesNum.getCount() + " people at the gig.");
 		System.out.println("We sold " + booksSold.getCount() + " book in total.");
 
+	}
+
+	public void count()//this method ads one to the counter
+	{
+		counter = counter + 1;
+	}
+
+	public int getCount()
+	{
+		return counter;
 	}
 
 } 
